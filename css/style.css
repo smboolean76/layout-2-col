@@ -1,0 +1,62 @@
+/*---------------
+    RESET
+---------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------
+    DEBUG
+---------------*/
+.debug header {
+    height: 200px;
+    background-color: #DAA520;
+}
+.debug .col-big {
+    height: 600px;
+    background-color: #800080;
+}
+.debug .col-small {
+    height: 400px;
+    background-color: #EE82EE;
+}
+.debug footer {
+    height: 200px;
+    background-color: #ADD8E6;
+}
+
+/*---------------
+    COMMON
+---------------*/
+body {
+    padding: 20px;
+}
+/*---------------
+    HEADER
+---------------*/
+header {
+    margin-bottom: 20px;
+}
+
+/*---------------
+    MAIN
+---------------*/
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.col-big {
+    width: calc(70% - 10px);
+}
+.col-small {
+    width: calc(30% - 10px);
+}
+
+/*---------------
+    footer
+---------------*/
+footer {
+    margin-top: 20px;
+}
